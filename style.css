@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body, .wrapper, .ring, .img {  
+  width:100%;  
+  height: 100%;  
+  transform-style: preserve-3d;  
+  user-select:none;  
+}  
+
+html, body, .wrapper {  
+  overflow:hidden;  
+  background:#000;  
+}  
+
+div, svg {  
+  position: absolute;
+}  
+
+.container {  
+  perspective: 2000px;  
+  width: 300px;  
+  height: 400px;   
+  left:50%;  
+  top:50%;  
+  transform:translate(-50%,-50%);  
+}
+
+/* *,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.wrapper div {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.image {
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  height: 50rem;
+  object-fit: cover;
+  transition: 0.1s;
+  width: 100%;
+}
+
+.wrapper div:last-child .image {
+  max-height: 40rem;
+} */
